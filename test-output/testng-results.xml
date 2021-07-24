@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[post opertion was successful]]>
     </line>
     <line>
-      <![CDATA[The name of the reprository which is scusscefully cetaed ApiWeekend305404120]]>
+      <![CDATA[The name of the reprository which is scusscefully cetaed ApiWeekendprojects322484809]]>
     </line>
     <line>
       <![CDATA[patch opertion was successful]]>
@@ -16,49 +16,23 @@
     <line>
       <![CDATA[we are closeing]]>
     </line>
-    <line>
-      <![CDATA[Get operation is successful]]>
-    </line>
-    <line>
-      <![CDATA[we are closeing]]>
-    </line>
   </reporter-output>
-  <suite started-at="2021-07-24T10:06:49 IST" name="Suite" finished-at="2021-07-24T10:06:59 IST" duration-ms="10284">
+  <suite started-at="2021-07-24T10:43:44 IST" name="Default suite" finished-at="2021-07-24T10:43:55 IST" duration-ms="11097">
     <groups>
     </groups>
-    <test started-at="2021-07-24T10:06:49 IST" name="Test" finished-at="2021-07-24T10:06:59 IST" duration-ms="10284">
-      <class name="com.TestYantra.GitHub.Scripts.GetOperation">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:com.TestYantra.GitHub.Scripts.GetOperation@ba54932]" started-at="2021-07-24T10:06:59 IST" name="openApp" finished-at="2021-07-24T10:06:59 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApp -->
-        <test-method signature="tc1()[pri:0, instance:com.TestYantra.GitHub.Scripts.GetOperation@ba54932]" started-at="2021-07-24T10:06:59 IST" name="tc1" finished-at="2021-07-24T10:06:59 IST" duration-ms="374" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Get operation is successful]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tc1 -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.TestYantra.GitHub.Scripts.GetOperation@ba54932]" started-at="2021-07-24T10:06:59 IST" name="closeApp" finished-at="2021-07-24T10:06:59 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[we are closeing]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- closeApp -->
-      </class> <!-- com.TestYantra.GitHub.Scripts.GetOperation -->
+    <test started-at="2021-07-24T10:43:44 IST" name="Default test" finished-at="2021-07-24T10:43:55 IST" duration-ms="11097">
       <class name="com.TestYantra.GitHub.Scripts.PostOperation">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:com.TestYantra.GitHub.Scripts.PostOperation@574b560f]" started-at="2021-07-24T10:06:49 IST" name="openApp" finished-at="2021-07-24T10:06:51 IST" duration-ms="1724" status="PASS">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.TestYantra.GitHub.Scripts.PostOperation@757acd7b]" started-at="2021-07-24T10:43:44 IST" name="openApp" finished-at="2021-07-24T10:43:46 IST" duration-ms="1920" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="tc2()[pri:0, instance:com.TestYantra.GitHub.Scripts.PostOperation@574b560f]" started-at="2021-07-24T10:06:51 IST" name="tc2" finished-at="2021-07-24T10:06:59 IST" duration-ms="8103" status="PASS">
+        <test-method signature="tc2()[pri:0, instance:com.TestYantra.GitHub.Scripts.PostOperation@757acd7b]" started-at="2021-07-24T10:43:46 IST" name="tc2" finished-at="2021-07-24T10:43:55 IST" duration-ms="9096" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[post opertion was successful]]>
             </line>
             <line>
-              <![CDATA[The name of the reprository which is scusscefully cetaed ApiWeekend305404120]]>
+              <![CDATA[The name of the reprository which is scusscefully cetaed ApiWeekendprojects322484809]]>
             </line>
             <line>
               <![CDATA[patch opertion was successful]]>
@@ -68,7 +42,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- tc2 -->
-        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.TestYantra.GitHub.Scripts.PostOperation@574b560f]" started-at="2021-07-24T10:06:59 IST" name="closeApp" finished-at="2021-07-24T10:06:59 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:com.TestYantra.GitHub.Scripts.PostOperation@757acd7b]" started-at="2021-07-24T10:43:55 IST" name="closeApp" finished-at="2021-07-24T10:43:55 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[we are closeing]]>
@@ -76,6 +50,6 @@
           </reporter-output>
         </test-method> <!-- closeApp -->
       </class> <!-- com.TestYantra.GitHub.Scripts.PostOperation -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

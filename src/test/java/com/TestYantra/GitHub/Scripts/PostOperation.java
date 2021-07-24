@@ -17,7 +17,8 @@ import io.restassured.response.Response;
 public class PostOperation extends BaseClass{
 	@Test
 	public void tc2() throws FileNotFoundException, IOException {
-		String name="ApiWeekendprojects"+JavaUtility.getRandomNum();
+		String name=pfile.getpropertyData("nameRepo")+JavaUtility.getRandomNum();
+		
 		Project p=new Project(name);
 		
 		Response resp = given()
