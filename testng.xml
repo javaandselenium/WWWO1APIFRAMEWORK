@@ -3,6 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="com.TestYantra.GitHub.Scripts.Demo"/>
       <class name="com.TestYantra.GitHub.Scripts.PostOperation"/>
       <class name="com.TestYantra.GitHub.Scripts.GetOperation"/>
     </classes>

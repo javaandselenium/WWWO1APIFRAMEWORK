@@ -21,7 +21,7 @@ public class PostOperation extends BaseClass{
 		Project p=new Project(name);
 		
 		Response resp = given()
-		.auth().oauth2("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")
+		.auth().oauth2("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")
 		.contentType(ContentType.JSON)
 		.body(p)
 		.post(IEndPoints.postOperation);
@@ -36,7 +36,7 @@ public class PostOperation extends BaseClass{
 		//Patch operation on dynamic created repository
 		Project p1=new Project(name,"Hello dummy project");
 		given()
-		.auth().oauth2("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")
+		.auth().oauth2("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")
 		.contentType(ContentType.JSON)
 		.body(p1)
 		.pathParam("owner",pfile.getpropertyData("ownerName"))
@@ -47,7 +47,7 @@ public class PostOperation extends BaseClass{
 		Reporter.log("patch opertion was successful");
 		
 		given()
-		.auth().oauth2("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")
+		.auth().oauth2("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")
 		.pathParam("owner",pfile.getpropertyData("ownerName"))
 		.pathParam("repo",gitreproName)
 		.delete("/repos/{owner}/{repo}")
